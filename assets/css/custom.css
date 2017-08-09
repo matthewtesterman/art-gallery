@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css?family=Rationale|Raleway');
+body {
+  font-family: "Raleway";
+  background-color: #424242;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#intro-text-box{
+  display: none;
+}
+#slide-2-1-text-box, #slide-2-2-text-box {
+
+  margin-right: -100vw;
+}
+#section-intro {
+  font-size: 18px;
+}
+
+#section-intro  h1, h2 {
+  font-family: "Rationale";
+  color: red;
+}
+#section-intro  p {
+
+  color: white;
+}
+#section-intro #image {
+  height: 100vh;
+  background: url('../images/img-space.png')no-repeat top right ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#section-intro  .info-box {
+  padding-top: 80px;
+}
+
+
+#section-who-i-am {
+  font-size: 16px;
+}
+
+#section-who-i-am  h1, h2 {
+  font-family: "Rationale";
+  color: white;
+}
+#section-who-i-am  p {
+  color: white;
+  font-family: "Rationale";
+}
+#section-who-i-am  #image {
+  height: 100vh;
+  background: url('../images/img-sky.png') no-repeat top left;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#section-who-i-am .info-box {
+  padding-top: 80px;
+
+}
+#section-who-i-am  .text-box-bg {
+  background-color: #22B573;
+}
+
+
+
+
+#section-intro .text-box-bg {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+#section-my-philosophy {
+  font-size: 16px;
+}
+
+#section-my-philosophy h1, h2 {
+  color: white;
+}
+#section-my-philosophy p {
+  color: white;
+}
+#section-my-philosophy #image {
+  height: 100vh;
+  background: url('../images/img-boat.png') no-repeat top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#section-my-philosophy .info-box {
+  padding-top: 120px;
+
+}
+#section-my-philosophy .text-box-bg {
+  background-color: #482559;
+}
+#section-my-philosophy {
+  font-size: 16px;
+}
+
+#section-my-philosophy h1, h2 {
+  color: white;
+}
+#section-my-philosophy p {
+  color: white;
+}
+#section-my-skills #image {
+  height: 100vh;
+  background: url('../images/img-ocean.png') no-repeat top left;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#section-my-skills .info-box {
+  padding-top: 120px;
+
+}
+#section-my-skills .text-box-bg {
+  background-color: #482559;
+}
+
+#section-my-skills2 #image {
+  height: 100vh;
+  background: url('../images/img-ocean-floor.png') no-repeat top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#section-my-skills2 .info-box {
+  padding-top: 120px;
+
+}
+#section-my-skills2 .text-box-bg {
+  background-color: #482559;
+}
+/*   */
+#section-my-skills3 #image {
+  height: 100vh;
+  background: url('../images/img-cave.png') no-repeat top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#section-my-skills3 .info-box {
+  padding-top: 120px;
+
+}
+#section-my-skills3 .text-box-bg {
+  background-color: #482559;
+}
+
+#section-my-skills4 #image {
+  height: 100vh;
+  background: url('../images/img-underworld.png') no-repeat top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#section-my-skills4 .info-box {
+  padding-top: 120px;
+
+}
+#section-my-skills4 .text-box-bg {
+  background-color: #482559;
+}
+
+
+
+.info {
+    background-color: #FFFFFF;
+}
+.navbar-default {
+  background-color: transparent;
+  border: none;
+}
+.navbar-default .navbar-brand {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-text {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #4fad44;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #ffffff;
+  background-color: #4fad44;
+}
+.navbar-default .navbar-toggle {
+  border-color: #4fad44;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #4fad44;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ecf0f1;
+}
+.navbar-default .navbar-link {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-link:hover {
+  color: #ffffff;
+
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ecf0f1;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #4fad44;
+  }
+}

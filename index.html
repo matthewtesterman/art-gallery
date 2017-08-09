@@ -1,0 +1,90 @@
+<!-- web application that displays the art gallery.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/custom.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <!--<script src="assets/js/custom.js"></script>-->
+
+  <link rel="stylesheet" type="text/css" href="assets/css/jquery.fullPage.css" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
+  <script src="assets/js/jquery.easings.min.js"></script>
+  <!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
+  <script type="text/javascript" src="assets/js/scrolloverflow.min.js"></script>
+  <script type="text/javascript" src="assets/js/jquery.fullPage.js"></script>
+
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <script>
+  $(document).ready(function() {
+    $('#fullpage').fullpage({
+      anchors:['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage','sixthPage']
+    });
+  });
+  </script>
+</head>
+
+<body>
+  <div id="fullpage">
+    <div class="section">
+      <div id="section-intro">
+        <div id="image">
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div id="section-who-i-am">
+        <div id="image">
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div id="section-my-philosophy">
+        <div id="image">
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div id="section-my-skills">
+        <div id="image">
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div id="section-my-skills2">
+        <div id="image">
+          <div class="container-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div id="section-my-skills3">
+        <div id="image">
+          <div class="container-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div id="section-my-skills4">
+        <div id="image">
+          <div class="container-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </div>
+</body>
+</html>
